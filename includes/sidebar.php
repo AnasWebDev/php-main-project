@@ -109,7 +109,7 @@ Hide
 
 <?php
 
-$get_manfacturer = "select * from manufacturers where manufacturer_top='yes'";
+$get_manfacturer = "SELECT * FROM manufacturers WHERE manufacturer_top='yes'";
 
 $run_manfacturer = mysqli_query($con,$get_manfacturer);
 
@@ -165,7 +165,7 @@ $manufacturer_title
 }
 
 
-$get_manfacturer = "select * from manufacturers where manufacturer_top='no'";
+$get_manfacturer = "SELECT * FROM manufacturers WHERE manufacturer_top='no'";
 
 $run_manfacturer = mysqli_query($con,$get_manfacturer);
 
@@ -278,7 +278,7 @@ Hide
 
 <?php
 
-$get_p_cats = "select * from product_categories where p_cat_top='yes'";
+$get_p_cats = "SELECT * FROM product_categories WHERE p_cat_top='yes'";
 
 $run_p_cats = mysqli_query($con,$get_p_cats);
 
@@ -332,7 +332,7 @@ $p_cat_title
 
 }
 
-$get_p_cats = "select * from product_categories where p_cat_top='no'";
+$get_p_cats = "SELECT * FROM product_categories where p_cat_top='no'";
 
 $run_p_cats = mysqli_query($con,$get_p_cats);
 
@@ -445,7 +445,7 @@ Hide
 
 <?php
 
-$get_cat = "select * from categories where cat_top='yes'";
+$get_cat = "SELECT * FROM categories WHERE cat_top='yes'";
 
 $run_cat = mysqli_query($con,$get_cat);
 
@@ -496,7 +496,7 @@ $cat_title
 }
 
 
-$get_cat = "select * from categories where cat_top='no'";
+$get_cat = "SELECT * FROM categories WHERE cat_top='no'";
 
 $run_cat = mysqli_query($con,$get_cat);
 

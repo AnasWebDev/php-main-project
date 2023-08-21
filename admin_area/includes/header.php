@@ -7,7 +7,7 @@
   <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" href="../images/gu-black.png" type="image/png">
+  <link rel="icon" href="images/gu-black.png" type="image/png">
   <title>Glow Up</title>
   <link href="styles/bootstrap.min.css" rel="stylesheet">
   <link href="styles/backend.css" rel="stylesheet">
