@@ -100,7 +100,7 @@ $size = $row_orders['size'];
 
 $order_status = $row_orders['order_status'];
 
-$get_products = "select * from products where product_id='$product_id'";
+$get_products = "SELECT * FROM products WHERE product_id='$product_id'";
 
 $run_products = mysqli_query($con,$get_products);
 
@@ -119,7 +119,7 @@ $i++;
 <td>
 <?php 
 
-$get_customer = "select * from customers where customer_id='$c_id'";
+$get_customer = "SELECT * FROM customers WHERE customer_id='$c_id'";
 
 $run_customer = mysqli_query($con,$get_customer);
 
@@ -143,7 +143,7 @@ echo $customer_email;
 <td>
 <?php
 
-$get_customer_order = "select * from customer_orders where order_id='$order_id'";
+$get_customer_order = "SELECT * FROM customer_orders WHERE order_id='$order_id'";
 
 $run_customer_order = mysqli_query($con,$get_customer_order);
 

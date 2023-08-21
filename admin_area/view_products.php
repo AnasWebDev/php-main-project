@@ -112,6 +112,8 @@ $i++;
 <td>$ <?php echo $pro_price; ?></td>
 
 <td>
+
+
 <?php
 
 $get_sold = "select * from pending_orders where product_id='$pro_id'";
@@ -169,3 +171,13 @@ echo $count;
 
 
 <?php } ?>
+
+<div class="text-right" ><!-- text-right Starts -->
+
+<a href="index.php?insert_product" >
+
+Insert Products <i class="fa fa-arrow-circle-right" ></i>
+
+</a>
+
+</div><!-- text-right Ends -->

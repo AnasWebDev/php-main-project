@@ -136,3 +136,12 @@ $i++;
 
 
 <?php } ?>
+<div class="text-right" ><!-- text-right Starts -->
+
+<a href="index.php?insert_p_cat" >
+
+Insert Products category <i class="fa fa-arrow-circle-right" ></i>
+
+</a>
+
+</div><!-- text-right Ends -->
