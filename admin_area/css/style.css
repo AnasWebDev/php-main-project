@@ -18,6 +18,9 @@ margin-top:100px;
 
 }
 
+.text-right{
+    padding-bottom: 10%;
+}
 @media (min-width: 768px) {
 
 body{
