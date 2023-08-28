@@ -13,6 +13,7 @@ include("includes/main.php");
 
   <!-- MAIN -->
   <main>
+    <div class="dis-ms-reg"></div>
     <!-- HERO -->
     <div class="nero">
       <div class="nero__heading">
@@ -371,7 +372,7 @@ $check_email = mysqli_num_rows($run_email);
 
 if($check_email == 1){
 
-echo "<script>alert('This email is already registered, try another one')</script>";
+echo "<script>document.getElementById('dis-ms-reg').innerHTML = 'This email is already registered, try another one';</script>";
 
 exit();
 
@@ -418,7 +419,7 @@ if($check_cart>0){
 
 $_SESSION['customer_email']=$c_email;
 
-echo "<script>alert('You have been Registered Successfully')</script>";
+echo "<script>document.getElementById('dis-ms-reg').innerHTML = 'You have been Registered Successfully';</script>";
 
 echo "<script>window.open('checkout.php','_self')</script>";
 
@@ -426,7 +427,8 @@ echo "<script>window.open('checkout.php','_self')</script>";
 
 $_SESSION['customer_email']=$c_email;
 
-echo "<script>alert('You have been Registered Successfully')</script>";
+
+echo "<script>document.getElementById('dis-ms-reg').innerHTML = 'You have been Registered Successfully';</script>";
 
 echo "<script>window.open('index.php','_self')</script>";
 

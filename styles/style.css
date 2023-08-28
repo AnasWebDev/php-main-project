@@ -232,13 +232,18 @@ text-align: center;
 
 }
 
+
 #content {
 padding-left:25px;
+/* display: flex;
+justify-content: space-between; */
 
 }
 
 .single {
-width:290px;
+width:30%;
+/* height: 600px; */
+margin: 1%;
 }
 
 @media (max-width: 768px) {
@@ -747,4 +752,13 @@ width:90%;
 }
 
 
+}
+
+
+#pro-box{
+    /* display: flex;
+    justify-content: space-between;
+    gap: 15px; */
+    border: 2px solid black;
+    /* gap: 15px; */
 }

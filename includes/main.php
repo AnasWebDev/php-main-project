@@ -45,11 +45,11 @@
     <div class="page-header__bottomline">
       <div class="container clearfix">
         
-        <div class="logo">
+        <div class="logo text-center">
           <a class="logo__link" href="index.php">
-            <img class="logo__img" src="images/gu-black.png" alt="logotype" width="100">
+            <img class="logo__img h-2 w-2" src="images/gu-black.png" alt="logotype" style="width: 80px;">
           </a>
-          <h1>Glow Up</h1>
+          <p class="fw-bold">Glow Up</p>
         </div>
 
         <nav class="main-nav">

@@ -117,7 +117,7 @@ $i++;
 
 <td><?php echo $product_title; ?></td>
 
-<td><?php echo "$$coupon_price"; ?></td>
+<td><?php echo "JOD$coupon_price"; ?></td>
 
 <td><?php echo $coupon_code; ?></td>
 
